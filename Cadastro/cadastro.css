@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+/*========================SESSÃO DE CADASTRO========================*/
+body{
+    background: url(imggg/wallpaperflare.com_wallpaper.jpg);
+    font-family: 'Chakra Petch', sans-serif;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#maincadastro {
+    height: 90vh;
+    width: 40%;
+    border-radius: 3%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: rgba(255, 252, 252, 0.236);
+    display: flex;
+    text-shadow:1px 1px 2px rgb(54, 53, 53);
+    backdrop-filter: blur(3px);
+
+}
+
+#articlecadastro {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+}
+
+#logocadastro {
+ 
+    height: 10%;
+    margin: 0 auto;
+    margin-top: 4%;
+    font-family: 'Chakra Petch', sans-serif;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+}
+
+input {
+    margin-left: 5%;
+    margin-top: 2%;
+    height: 30%;
+    width: 97%;
+    outline: none;
+    padding-left: 2%;
+    font-size: 15pt;
+    border-bottom: 3px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 252, 252);
+}
+input::placeholder{
+    color: rgb(0, 0, 0);
+    text-shadow:1px 1px 2px white ;
+}
+
+button {
+    margin-top: 3%;
+    height: 50%;
+    border-radius: 15px;
+}
+
+#form {
+    margin-top: 0;
+       
+        height: 90%;
+        width: 100%;
+      
+}
+
+form {
+        height: 18%;
+}
+
+#nome {
+    float: right;
+}
+
+#tele {
+    float: right;
+}
+
+#mail {
+    float: right;
+}
+
+#cpf {
+    float: right;
+}
+
+#estado {
+    margin-right: 2%;
+}
+
+#cidade {
+    width: 40%;
+    margin-left: 0%;
+    margin-right: 2%;
+    margin-bottom: 0%;
+}
+
+#numero {
+    width: 15%;
+    margin-left: 0%;
+}
+
+#rua {
+    margin-left: 0%;
+    width: 50%;
+}
+
+#bairro {
+    width: 25%;
+    margin-left: 0%;
+}
+
+#nasc {
+    float: right;
+    cursor: pointer;
+}
+
+#senha {
+    float: right;
+}
+
+#senha_confirm {
+    float: right;
+}
+
+#botoescadastro {
+    height: 20%;
+    border: #0000 solid 1px;
+    margin: 0 auto;
+    margin-top: 0%;
+}
+
+#retornar {
+    width: 40%;
+  height: 70%;
+  cursor: pointer;
+  background-color: lightcoral;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 17pt;
+  color:black;
+  font-weight: bolder;
+  float: left;
+  margin-top: 4%;
+   
+}
+
+#cadastrar {
+    width: 40%;
+  height: 70%;
+  border: #0000 solid 1px;
+  background-color: lightgreen;
+  margin-top: 4%;
+  cursor: pointer;
+  float: right;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 17pt;
+  color:black;
+  font-weight: bolder;
+   
+}
+
+a {
+    color:black;
+}
+
+
+/* =============================ÁREA DE RESPONSIVIDADE ============================= */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 26.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 85.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 350px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 90%;
+    }
+    #cidade {
+        margin-right: 0%;
+        width: 14%;
+    } 
+}
+
+@media only screen and (max-width: 788px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 90%;
+    }
+
+    #maincadastro {
+        height: 130%;
+        margin-top: 19%;
+        width: 100%;
+        margin-top: 30%;
+    }
+
+    #logocadastro {
+        margin-left: 5%;
+    }
+
+    #form {
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        height: 60%;
+    }
+    form {
+        height: 22%;
+    }
+
+    #botoescadastro {
+        margin-right: 0%;
+        margin: 0 auto;
+        margin-left: 4%;
+    }
+
+    #retornar {
+        width: 49%;
+        height: 60%;
+    }
+
+    #cadastrar {
+        width: 49%;
+        height: 60%;
+    }
+
+    #numero {
+        width: 12%;
+    }
+
+    #rua {
+        width: 40%;
+    }
+    #cidade {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 90%;
+    }
+
+    #cidade {
+        width: 30%;
+    }
+
+    #rua {
+        width: 40%;
+    }
+
+    #numero {
+        width: 10%;
+    }
+
+    #retornar {
+        font-size: 15pt;
+    }
+
+    #cadastrar {
+        font-size: 15pt;
+    }
+}
+
+
+

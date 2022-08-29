@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>IANES Tech - cadastro</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+
+<body>
+    
+    <main class="col-6" id="maincadastro">
+
+        <article class="col-12" id="articlecadastro">
+
+            <section id="logocadastro" class="col-11"></section>
+
+            <section id="form" class="col-8">
+                <form action="#" method="post" id="cad">
+            
+                            <label>Nome</label>
+                            <input type="text" name="nome" id="nome" placeholder="Nome"><br><br>
+                
+                            <label>Telefone</label>
+                            <input type="tel" name="tele" id="tele" placeholder="Telefone" maxlength="15"><br><br>
+                
+                            <label>E-mail</label>
+                            <input type="email" name="mail" id="mail" placeholder="E-mail"><br><br>
+                
+                            <label>CPF</label>
+                            <input type="text" name="cpf" id="cpf" placeholder="CPF" maxlength="14"><br><br>
+                
+                            <label>UF</label> 
+                            <select name="estado" id="estado">
+                                <option value="mg" selected="select">MG</option>
+                                <option value="ac">AC</option>
+                                <option value="al">AL</option>
+                                <option value="ap">AP</option>
+                                <option value="am">AM</option>
+                                <option value="ba">BA</option>
+                                <option value="ce">CE</option>
+                                <option value="df">DF</option>
+                                <option value="es">ES</option>
+                                <option value="go">GO</option>
+                                <option value="ma">MA</option>
+                                <option value="mt">MT</option>
+                                <option value="ms">MS</option>
+                                <option value="pa">PA</option>
+                                <option value="pb">PB</option>
+                                <option value="pr">PR</option>
+                                <option value="pe">PE</option>
+                                <option value="pi">PI</option>
+                                <option value="rj">RJ</option>
+                                <option value="rn">RN</option>
+                                <option value="rs">RS</option>
+                                <option value="ro">RO</option>
+                                <option value="rr">RR</option>
+                                <option value="sc">SC</option>
+                                <option value="sp">SP</option>
+                                <option value="se">SE</option>
+                                <option value="to">TO</option>
+                            </select> 
+
+                            <label>Cidade</label>
+                            <input type="text" name="cidade" id="cidade" placeholder="Cidade">
+
+                            <label>N°</label>
+                            <input type="number" name="numero" id="numero" placeholder="n°" min="1"><br/>
+
+                            <label>Rua</label>
+                            <input type="text" name="rua" id="rua">
+
+                            <label>Bairro</label>
+                            <input type="text" name="bairro" id="bairro"><br/>
+                
+                            <label>Data de nascimento</label>
+                            <input type="date" name="nasc" id="nasc"><br><br>
+                
+                            <label>Senha</label>
+                            <input type="password" name="senha" id="senha" placeholder="Senha" maxlength="16"><br><br>
+                
+                            <label>Confirme sua senha</label>
+                            <input type="password" name="senha_confirm" id="senha_confirm" placeholder="Confirme sua Senha"><br><br>
+                        </form>
+
+            </section>
+
+            <section id="botoescadastro" class="col-6">
+                <a href="../Login/login.html"><button id="retornar"> RETORNAR</button></a>
+                <button id="cadastrar" type="submit" onclick="armazenar()">CADASTRAR</button> 
+            </section> 
+
+        </article>
+
+    </main>
+
+</body>
+
+<script src="../JS/logica.js"></script>
+
+</html>

@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+* { /* CSS RESET */
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+}
+  body{
+    /*background:url(imgg/wallpaperflare.com_wallpaper.jpg); */
+    background-color: rgb(5, 67, 252, 0.99);
+  }
+
+  #progresso {
+    color:#4E08FE;
+  }
+  
+  #p  {
+    font-family: 'Chakra Petch', sans-serif;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-size: 50pt;
+    text-align: center;
+    text-shadow:1px 3px 2px rgb(0, 0, 0);
+  }
+
+  #articletitulo {
+    background-color: rgba(240, 248, 255, 0.358);
+    backdrop-filter: blur(3px);
+  }
+
+  main {
+    height: 95vh;
+    /*border: 0.5px solid #000;*/
+    margin: 0 auto;
+    margin-top: 2.5vh;
+    /*border-radius: 30px;
+    background-color: rgba(240, 248, 255, 0.358);
+    backdrop-filter: blur(3px);*/
+   
+  }
+
+  #conteudo {
+    height: 90%;
+    /*border: 1px solid;*/
+    margin: 0 auto;
+    margin-top: 4%;
+  }
+
+
+  #articlebotoes {
+    height: 9%;
+    margin: 0 auto;
+   
+    border-radius: 15px;
+    background-color: rgba(240, 248, 255, 0.358);
+    backdrop-filter: blur(3px);
+  }
+
+  #botoes {
+    height: 100%;
+    float: left;
+    margin-top: 1.15%;
+    margin-left: 30%;
+  }
+
+  #botoes2{
+    height: 100%;
+    float: right;
+    margin-top: 1.15%;
+    margin-right: 30%;
+    position: relative;
+  }
+
+  #b2 {
+    width: 100%;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4E08FE;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #656568;
+  }
+  
+  #b2:hover { background-color: #2a0c78}
+  
+  #b2:active {
+    background-color: #2a0c78;
+    box-shadow: 0 5px #414144;
+    transform: translateY(4px);
+  }
+  
+  /* BOTÃO DE AVANÇO */
+
+#b2 {
+  width: 100%;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4E08FE;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #656568;
+}
+
+#b2:hover { background-color: #2a0c78}
+
+#b2:active {
+  background-color: #2a0c78;
+  box-shadow: 0 5px #414144;
+  transform: translateY(4px);
+}
+
+/* BOTÃO DE AVANÇO */
+
+/* BOTÃO DE RETORNO */
+
+#b1 {
+  width: 100%;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #1941d3;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #656568;
+}
+
+#b1:hover { background-color: #0d257a}
+
+#b1:active {
+  background-color: #0d257a;
+  box-shadow: 0 5px #414144;
+  transform: translateY(4px);
+}
+
+/* BOTÃO DE RETORNO */
+
+
+
+  #sectionarticletop{
+    height: 90%;
+    float: left;
+    margin: 0 auto;
+    margin: 0 0 0 1%;
+    border-radius: 15px;
+    background-color: rgba(240, 248, 255, 0.358);
+    backdrop-filter: blur(3px);
+    
+  }
+
+  #bloco2{
+    float: right;
+    width: 36%;
+    height: 40%;
+    margin: 0% 0 0 1%;
+    border-radius: 15px;
+    background-color: rgba(240, 248, 255, 0.358);
+    backdrop-filter: blur(3px);
+   
+  }
+
+  #titulo {
+    padding: 15px 0 0 0;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  #fraseinic {
+    padding: 0 15px 0 15px;
+    margin: 3.5% 0 0 0;
+    text-align: justify;
+    text-indent: 25px;
+    font-size: 14pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  #frasedestq {
+    padding: 0 15px 0 15px;
+    margin: 3.5% 0 0 0;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 14pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  #volumecont {
+    padding: 0 15px 25px 15px;
+    margin: 3.5% 0 0 0;
+    text-align: justify;
+    text-indent: 25px;
+    font-style: bolder;
+    font-size: 14pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  #quadro {
+    margin: 5% 0 5% 10%;
+   
+    width: 80%;
+    height: 250px;
+  }
+
+  
+
+
+  /* =============================ÁREA DE RESPONSIVIDADE ============================= */
+.col-1 {width: 8.33%;}
+.col-2 {width: 15.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 26.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 90.66%;}
+.col-12 {width: 100%;}
+
+
+@media only screen and (max-width: 1370px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 90%;
+  }
+
+  main {
+    height: 120vh;
+  }
+  #sectionarticletop {
+    float: none;
+    width: 100%;
+    margin-left: 0%;
+    height: 70%;
+  }
+  #bloco2 {
+    height: 25%;
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+    margin-top: 3%;
+  }
+
+  #botoes2 {
+    float: right;
+    margin: 0;
+    
+    width: 30%;
+    height: 70%;
+    margin-top: 0%;
+  }
+
+  #botoes {
+    width: 30%;
+    float: left;
+    height: 70%;
+    margin-top: 0%;
+    margin-left: 0%;
+  }
+
+  #b1 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin: 0;
+  }
+
+  #b2 {
+    width: 100%;
+    height: 100%;
+    float: right;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1601px) {
+  /* For mobile phones: */
+
+  main {
+    height: 190vh;
+  }
+
+  #sectionarticletop{
+    height: 90%;
+  }
+
+}
+
+@media only screen and (max-width: 978px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 90%;
+  }
+
+  #conteudo {
+    height: 60em;
+    width: 100%;
+  }
+
+  #sectionarticletop {
+    float: none;
+    width: 100%;
+  }
+
+  #quadro {
+    float: none;
+  }
+
+}
+
+@media only screen and (max-width: 778px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 90%;
+  }
+
+  main {
+    height: 210vh;
+  }
+
+  #conteudo {
+    height: 95%;
+  }
+
+  #sectionarticletop {
+    height: 86%;
+  }
+
+  #articlebotoes {
+    margin-top: 0%;
+  }
+
+  #b2 {
+    font-size: 14pt;
+  }
+
+  
+}
+
+@media only screen and (max-width: 458px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 90%;
+  }
+
+  main {
+    height: 230vh;
+  }
+
+  #conteudo {
+    height: 95%;
+  }
+
+  #sectionarticletop {
+    height: 94%;
+  }
+
+  #b2 {
+    font-size: 14pt;
+  }
+
+}
+
+@media only screen and (max-width: 328px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 90%;
+  }
+  main {
+    height: 300vh;
+  }
+  #bloco2 {
+    height: 20%;
+    width: 100%;
+  }
+
+}

@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+* { /* CSS RESET */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+  }
+  
+
+  body {
+    background-image: url(img/456498.jpg);
+    background-attachment: fixed;
+  }
+
+  main {
+    height: 400vh;
+    border: 1px solid #000;
+    margin: 0 auto;
+    margin-top: 2vh;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    background-color: gray;
+  }
+
+  #conteudo {
+    height: 390vh;
+    border: 1px solid;
+    margin: 0 auto;
+    margin-top: 2%;
+    background-image: url(img/vetor-de-fundo-de-padrao-geometrico-branco-e-cinza_53876-136510.webp);
+  }
+
+  #sectionprova {
+    padding: 10px;
+    height: 360vh;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+
+  .text {
+    text-align: justify;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+  }
+
+  ul {
+    margin-left: 18px;
+    margin-top: 7px;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  li {
+    margin-top: 7px;
+  }
+
+  .prova {
+    margin-bottom: 50px;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 23px;
+  }
+
+  #sectionbotao {
+    height: 10%;
+  }
+
+  #botao1 {
+    float: right;
+    width: 22%;
+    height: 50px;
+    font-size: 120%;
+    font-weight: bolder;
+    margin-right: 10px;
+    border-radius: 4%;
+    background-color: rgba(226, 217, 217, 0.658);
+    text-shadow:1px 1px 2px white ;
+    font-size: larger;
+    font-family: 'Chakra Petch', sans-serif;
+    cursor: pointer;
+    
+  }
+
+  #botao2 {
+    float: right;
+    width: 22%;
+    height: 50px;
+    font-size: 120%;
+    font-weight: bolder;
+    margin-right: 10px;
+    border-radius: 4%;
+    background-color: rgba(226, 217, 217, 0.658);
+    text-shadow:1px 1px 2px white ;
+    font-size: larger;
+    font-family: 'Chakra Petch', sans-serif;
+    cursor: pointer;
+  }
+
+
+
+  /* =============================ÁREA DE RESPONSIVIDADE ============================= */
+.col-1 {width: 8.33%;}
+.col-2 {width: 15.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 26.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 94.66%;}
+.col-12 {width: 100%;}
+
+
+
+@media only screen and (max-width: 1366px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 98%;
+  }
+  main {
+    height: 580vh;
+  }
+
+
+  #conteudo{
+    margin-top: 10%;
+    height: 530vh;
+  }
+
+#sectionprova {
+  height: 510vh;
+}
+}
+@media only screen and (max-width: 1025px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 98%;
+  }
+
+  main {
+    height: 595vh;
+  }
+
+
+  #conteudo{
+    margin-top: 10%;
+    height: 580vh;
+  }
+
+#sectionprova {
+  height: 550vh;
+}
+
+}
+
+@media only screen and (max-width: 898px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 98%;
+  }
+
+  main {
+    height: 255em;
+  }
+
+
+  #conteudo{
+    margin-top: 10%;
+    height: 250em;
+  }
+
+#sectionprova {
+  height: 235em;
+}
+
+  #botoes {
+    width: 40%;
+    margin: 0 auto;
+    float: left;
+   
+  }
+  #botoes2 {
+    width: 40%;
+    margin: 0 auto;
+    float:right;
+
+  }
+
+  #b2 {
+    font-size: 100%;
+  }
+  
+}
+
+@media only screen and (max-width: 720px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 98%;
+  }
+
+  main {
+    height: 545vh;
+  }
+
+
+  #conteudo{
+    margin-top: 10%;
+    height: 530vh;
+  }
+
+#sectionprova {
+  height: 520vh;
+}
+
+}
+
+@media only screen and (max-width: 481px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 98%;
+  }
+
+  main {
+    height: 690vh;
+  }
+
+
+  #conteudo{
+    margin-top: 10%;
+    height: 660vh;
+  }
+
+#sectionprova {
+  height: 640vh;
+}
+
+}
+
+@media only screen and (max-width: 391px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 98%;
+  }
+
+  main {
+    height: 790vh;
+  }
+
+
+  #conteudo{
+    margin-top: 10%;
+    height: 760vh;
+  }
+
+#sectionprova {
+  height: 750vh;
+}
+
+#botao1 {
+  width: 40%;
+}
+
+#botao2 {
+  width: 40%;
+}
+
+
+}
+
+@media only screen and (max-width: 292px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 98%;
+  }
+
+  main {
+    height: 930vh;
+  }
+
+
+  #conteudo{
+    margin-top: 10%;
+    height: 910vh;
+  }
+
+#sectionprova {
+  height: 890vh;
+}
+
+#botao1 {
+  width: 40%;
+}
+
+#botao2 {
+  width: 40%;
+}
+
+
+}

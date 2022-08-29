@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Métodos de Pagamento</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="metpagamento.css">
+        <script src="../JS/logica.js"> </script>
+    </head>
+    <body>
+        <div id="metodopagamento">
+            <main class="col-9" id="metpag">
+                <section class="col-10" id="sectionmetpag">
+                    <h1 id="titlemetpag">Escolha o método de pagamento: </h1>
+                    <button id="opcaoboleto" onclick="vefmet1()">Boleto</button>
+                    <button id="opcaocartao" onclick="vefmet2()">Cartão</button>
+                </section>
+            </main>
+        </div>
+        <div id="boleto">
+            <main class="col-10" id="bol">
+                <section class="col-8" id="sectionbol">
+                    <h1 id="titlebol">Dados pessoais: </h1>
+                    <label class="texto">Nome completo:</label>
+                    <input type="text" name="nomecompleto" id="nomecompleto" class="inputboleto"/><br/><br/><br/>
+                    <label class="texto">CPF:</label>
+                    <input type="text" name="cpf1" id="cpf1" class="inputboleto" maxlength="11"/><br/>
+                    <button id="cancelarbol" onclick="voltar1()">Cancelar</button>
+                </section>
+                <aside class="col-4" id="asidebol">
+                    <section class="col-12" id="sectionasidebol1">
+                        <p class="texto2">Valor do pedido:R$69,90</p> <br/> 
+                        <p class="texto2">Taxa de Gestão:R$5,90 </p><br/> 
+                        <p class="texto2">Total a Pagar:R$75,80</p> <br/> 
+                    </section>
+                    <section class="col-12" id="sectionasidebol2">
+                        <button id="compraboleto" onclick="finalizar()"><a href="../Menucurso/menudocurso.html">Finalizar Compra</a></button>
+                    </section>
+                </aside>
+            </main>
+        </div>
+        <div id="cartao">
+            <main class="col-10" id="car">
+                <section class="col-8" id="sectioncar">
+                    <h1 id="titlecar">Dados pessoais: </h1>
+                    <label class="texto">Nome completo</label>
+                    <input type="text" name="nomecompleto" id="nomecompleto" class="inputcartao"/><br/><br/>
+                    <label class="texto">CPF</label> 
+                    <input type="text" name="cpf1" id="cpf1" class="inputcartao"/> <br/><br/>
+                    <label class="texto">Número do Cartão</label> 
+                    <input type="text" name="numcartao" id="numcartao" class="inputcartao" maxlength="16"/><br />
+                    <label class="texto">Val/</label>
+                    <input type="text" name="validade" id="validade" class="inputcartao2" maxlength="7"/>
+                    <label class="texto3">CVV</label>
+                    <input type="text" name="cvv" id="cvv" class="inputcartao2" maxlength="3"/> </br>
+                    <button id="cancelarcar" onclick="voltar2()">Cancelar</button>
+                </section>
+                <aside class="col-4" id="asidecar">
+                    <section class="col-12" id="sectionasidecar1">
+                        <p class="texto2">Valor do pedido:R$69,90</p> <br/> 
+                        <p class="texto2">Taxa de Gestão:R$9,90</p> <br/> 
+                        <p class="texto2">Total a Pagar:R$79,80</p> <br/> 
+                    </section>
+                    <section class="col-12" id="sectionasidecar2">
+                        <button id="compracartao" onclick="valida_cc(), finalizar()">Finalizar Compra</button>
+                    </section>
+                </aside>
+            </main>
+        </div>
+    </body>
+</html>

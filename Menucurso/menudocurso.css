@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+
+* {
+    /* CSS RESET */
+    margin: 0;
+    padding: 0;
+    border: 1;
+    text-decoration: none;
+}
+
+body{
+    background: url(imgg/wallpaperflare.com_wallpaper.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+header {
+
+height: 10vh;
+margin: 0 auto;
+margin-top: 5%;
+font-family: 'Chakra Petch', sans-serif;
+font-style: italic;
+color: rgb(255, 255, 255);
+font-size: 50px;
+text-align: center;
+text-shadow: 1px 5px 5px #000;
+}
+
+main {
+height: 55vh;
+margin: 0 auto;
+margin-top: 1%;
+
+}
+
+#art1 {
+    background-color: rgba(255, 252, 252, 0.236);
+    backdrop-filter: blur(3px);
+    border-radius: 3%;
+    height: 50vh;
+    float: left;
+}
+
+#art2 {
+    background-color: rgba(255, 252, 252, 0.236);
+    backdrop-filter: blur(3px);
+    height: 50vh;
+    float: left;
+    margin-left: 1.1%;
+    border-radius: 3%;
+}
+
+#art3 {
+    background-color: rgba(255, 252, 252, 0.236);
+    backdrop-filter: blur(3px);
+    
+    height: 50vh;
+    float: right;
+    border-radius: 3%;
+}
+
+#img1 {
+   
+    height: 40vh;
+    background: url(imgg/sobre.png)no-repeat;
+    background-size: 70%;
+    border-radius: 2%;
+    margin-left: 18%;
+}
+
+#img2 {
+    
+    height: 40vh;
+    background: url(imgg/papel.png) no-repeat;
+    background-size: 70%;
+    border-radius: 2%;
+    margin-left: 20%;
+    
+   
+}
+
+#img3 {
+    background: url(imgg/medalha-de-honra.png) no-repeat;
+    background-size: 70%;
+    border-radius: 2%;
+    margin-left: 18%;
+    height: 40vh;
+}
+
+.botao {
+    
+    height: 9.6vh;
+    position: relative;
+   
+}
+
+.buttonart {
+    height: 70%;
+    width: 70%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 4%;
+    background-color: rgb(255, 255, 255);
+    text-shadow:1px 1px 2px white ;
+    font-size: larger;
+    font-family: 'Chakra Petch', sans-serif;
+    cursor: pointer ;
+}
+/*.container{
+  display: grid;
+  place-items: center;
+  position: relative;
+  height: 70%;
+  width: 70%;
+  overflow: hidden;
+}
+
+.container ::before{
+  content: '';
+  width: 70%;
+  height: 70%;
+  left: 10px;
+  top: -70%;
+  position: absolute;
+  background: linear-gradient(#00e5ff,#b400fb);
+  animation: animate 5s linear infinite;
+}
+@keyframes animate{
+  0%{transform:rotate(0deg);}
+
+  
+  100%{transform: rotate(360deg);}
+
+}
+
+.container ::after{
+
+  content: ' ';
+  position: absolute;
+  border-radius: 3%;
+  inset: 3px;
+}*/
+
+footer {
+  height: 9.6vh;
+  margin: 0 auto;
+}
+
+footer > section {
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+}
+
+#botaofooter {
+  height: 70%;
+  width: 70%;
+  position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 49%;
+    border-radius: 4%;
+    background-color: rgb(255, 255, 255);
+    text-shadow:1px 1px 2px white ;
+    font-size: larger;
+    font-family: 'Chakra Petch', sans-serif;
+    cursor: pointer ;
+}
+
+a {
+  color: white;
+}
+
+
+/* =============================ÁREA DE RESPONSIVIDADE ============================= */
+.col-1 {width: 8.33%;}
+.col-2 {width: 15.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 32.33%;}
+.col-5 {width: 27.00%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 90.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 678px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 90%;
+  }
+
+  main {
+    height: 156.2vh;
+  }
+
+  #art1 {
+    width: 100%;
+    margin-top: 3%;
+  }
+
+  #img1 {
+    width: 100%;
+  }
+
+  #art2 {
+    margin-top: 2%;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  #img2 {
+    width: 100%;
+  }
+  
+  #art3 {
+    margin-top: 5%;
+    width: 100%;
+  }
+
+  #img3 {
+    width: 100%;
+  }
+  #botaofooter {
+    width: 77%;
+    left: 55%;
+  }
+
+
+}

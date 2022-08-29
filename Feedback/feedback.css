@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+
+* {
+  /* CSS RESET */
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+}
+
+body {
+  background-image: url(img/Cyber-Wallpaper-4k.webp);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+}
+
+main {
+  height: 230vh;
+  border: 1px solid #000;
+  margin: 0 auto;
+  margin-top: 10vh;
+  border-radius: 30px;
+  /*color: rgb(255, 255, 255);*/
+  font-style: italic;
+  text-shadow: 1px 1px 2px rgb(54, 53, 53);
+  background-color: rgba(255, 252, 252, 0.236);
+  backdrop-filter: blur(3px);
+}
+
+#conteudo {
+  height: 90.20%;
+  border: 5px solid purple;
+  margin: 0 auto;
+  margin-top: 2%;
+
+}
+
+#sectiontop {
+  
+  height: 20%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#sectionbottom {
+ 
+  margin: 0 auto;
+  padding: 30px;
+  height: 70%;
+}
+
+
+#title {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 38pt;
+  color:white;
+  font-weight: bolder;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+#title2 {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 18pt;
+  color:white;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.texto {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 18pt;
+  color:white;
+ 
+}
+
+label {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 14pt;
+  color:white;
+}
+
+textarea {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 14pt;
+  color:rgba(44, 43, 43, 0.733);
+  width: 97.3%;
+  margin-top: 15px;
+  padding: 15px;
+  opacity: 0.7;
+  resize: none;
+  height: 30%;
+}
+
+#botaoenviar {
+  width: 20%;
+  height: 8%;
+  border: #0000 solid 1px;
+  background-color: lightgreen;
+  margin-top: 4%;
+  cursor: pointer;
+  float: right;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 17pt;
+  color:black;
+  font-weight: bolder;
+
+}
+
+#retornar {
+  width: 20%;
+  height: 8%;
+  cursor: pointer;
+  background-color: lightcoral;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 17pt;
+  color:black;
+  font-weight: bolder;
+  float: left;
+  margin-top: 4%;
+}
+
+/*
+
+  tentativa falha de animação 
+  
+  .style{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+*/
+
+
+
+
+/* =============================ÁREA DE RESPONSIVIDADE ============================= */
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 15.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 26.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 94.33%;
+}
+
+.col-11 {
+  width: 90.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+@media only screen and (max-width: 868px) {
+
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 90%;
+  }
+
+  #conteudo {
+    margin-top: 5%;
+  }
+
+  #sectiontop {
+    width: 100%;
+  }
+
+  #botaoenviar {
+    width: 50%;
+    float:none;
+    align-items: center;
+    font-size: 20pt;
+    margin-left: 25%;
+  }
+
+  #retornar {
+    width: 50%;
+    float:none;
+    align-items: center;
+    font-size: 20pt;
+    margin-left: 25%;
+  }
+
+
+}
+
+@media only screen and (max-width: 568px) {
+
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 84%;
+  }
+
+  main {
+    height: 240vh;
+  }
+
+  #conteudo {
+    height: 230vh;
+  }
+
+  #sectionbottom {
+    width: 100%;
+    padding: 0px;
+    height: 75%;
+  }
+
+  textarea {
+    width: 90%;
+  }
+  
+  #retornar {
+    height: 7%;
+
+  }
+
+  #botaoenviar {
+    height: 7%;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 420px) {
+
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 95%;
+  }
+
+  main {
+    height: 270vh;
+  }
+
+  #conteudo {
+    height: 260vh;
+  }
+
+  #sectionbottom {
+    height: 75%;
+  }
+
+  #retornar {
+    height: 7%;
+
+  }
+
+  #botaoenviar {
+    height: 7%;
+  }
+
+  }
+
+  @media only screen and (max-width: 320px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 95%;
+    }
+main {
+  height: 360vh;
+}
+
+#sectiontop {
+  height: 30%;
+}
+#conteudo {
+  height: 350vh;
+}
+
+  }

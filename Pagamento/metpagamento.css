@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+* { /* CSS RESET */
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+  }
+
+  body {
+    background-image: url(img/Cyber-Wallpaper-4k.webp);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  #boleto {
+    display: none;
+  }
+
+  #cartao {
+    display: none;
+  }
+
+  #metpag {
+    height: 40vh;
+  
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+
+  #sectionmetpag {
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  #titlemetpag {
+    text-align: center;
+    margin-bottom: 10%;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 34pt;
+    color:white;
+  }
+
+  #opcaoboleto {
+    height: 40%;
+    width: 40%;
+    margin: 0 auto;
+    margin-left: 6%;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 34pt;
+    color:black;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+
+  #opcaocartao {
+    height: 40%;
+    width: 40%;
+    margin: 0 auto;
+    margin-left: 6%;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 34pt;
+    color:black;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+
+  #bol {
+    height: 60vh;
+    
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+
+  #sectionbol {
+    height: 100%;
+    margin: 0 auto;
+    
+    float: left;
+  }
+
+  #titlebol {
+    margin-bottom: 7%;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 30pt;
+    color:white;
+  }
+
+  .texto{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20pt;
+    color:white;
+  }
+
+  .inputboleto {
+    margin-left: 30px;
+    height: 22px;
+    padding: 7px;
+    border-radius: 12px;
+    width: 45%;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 16pt;
+    color:#000;
+  }
+
+  #cancelarbol {
+    margin-top: 11%;
+    height: 22%;
+    width: 160px;
+    background-color: rgba(240, 58, 94, 0.942);
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 24pt;
+    color:#000;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+
+  #asidebol {
+    height: 100%;
+    float: right;
+  }
+
+  #sectionasidebol1 {
+    height: 60%;
+    margin-bottom: 22%;
+}
+
+#sectionasidebol2 {
+    height: 20%;  
+}
+
+.texto2{
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 20pt;
+  color:white;
+  margin-top: 25px;
+}
+
+#compraboleto {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 202, 33, 0.942);
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 24pt;
+    color:#000;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+#car {
+    height: 65vh;
+   
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+
+  #sectioncar {
+    height: 100%;
+    margin: 0 auto;
+   
+    float: left;
+  }
+
+  #titlecar {
+    margin-bottom: 5%;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 26pt;
+    color:white;
+  }
+
+  .inputcartao {
+    margin-left: 30px;
+    height: 22px;
+    padding: 7px;
+    border-radius: 12px;
+    width: 45%;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 16pt;
+    color:#000;
+  }
+
+  .texto3 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20pt;
+    color:white;
+    margin-left: 40px;
+    
+  }
+
+  .inputcartao2 {
+    margin-left: 20px;
+    height: 22px;
+    padding: 7px;
+    border-radius: 12px;
+    width: 25%;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 16pt;
+    color:#000;
+    margin-top: 20px;
+  }
+
+
+  #cancelarcar {
+    margin-top: 5%;
+    height: 22%;
+    width: 160px;
+    background-color: rgba(240, 58, 94, 0.942);
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 24pt;
+    color:#000;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+
+  #asidecar {
+    height: 100%;
+    float: right;
+  }
+
+  #sectionasidecar1 {
+    height: 60%;
+   
+    margin-bottom: 22%;
+}
+
+#sectionasidecar2 {
+    height: 20%;
+   
+}
+
+#compracartao {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 202, 33, 0.942);
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 24pt;
+  color:#000;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+#numcartao {
+    margin-right: 10%;
+}
+
+a {
+  color: #000;
+}
+
+  /* =============================ÁREA DE RESPONSIVIDADE ============================= */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 26.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 85.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1025px) {
+  /* For mobile phones: */
+  #compraboleto {
+    margin-top: 19%;
+    height: 130%;
+  }
+
+  #compracartao {
+    margin-top: 15%;
+  }
+}
+
+
+
+@media only screen and (max-width: 798px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 90%;
+  }
+
+  #opcaoboleto {
+    width: 60%;
+    margin-left: 17%;
+  }
+
+  #opcaocartao {
+    width: 60%;
+    margin-left: 17%;
+    margin-top: 5%;
+  }
+
+  #bol {
+    height: 70%;
+  }
+
+  #sectionbol {
+    float:none;
+    height:70%;
+    width: 100%;
+  }
+
+  #asidebol {
+    float:none;
+    height:40%;
+    width: 100%;
+  }
+  #sectionasidebol1 {
+    margin-bottom: 0%;
+    height: 75%;
+    width: 100%;
+}
+
+#sectionasidebol2 {
+  height: 22%;
+  width: 100%;
+  margin-top: 0%;
+}
+
+  #cancelarbol {
+    margin-top: 20%;
+    margin-left: 15%;
+    width: 60%;
+  }
+
+  #car {
+    height: 90%;
+  }
+
+  #sectioncar {
+    float:none;
+    height:70%;
+    width: 100%;
+  }
+
+  #asidecar {
+    float:none;
+    height:40%;
+    width: 100%;
+  }
+  #sectionasidecar1 {
+    margin-bottom: 0%;
+    height: 75%;
+    width: 100%;
+}
+
+#sectionasidecar2 {
+  height: 22%;
+  width: 100%;
+  margin-top: 0%;
+}
+
+  #cancelarcar {
+    margin-top: 20%;
+    margin-left: 15%;
+    width: 60%;
+  }
+
+  #numcartao {
+   width: 28%;
+   margin-right: 0%;
+  }
+
+  #validade {
+    width: 12%;
+  }
+}
+@media only screen and (max-width: 448px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 90%;
+  }
+  #opcaoboleto {
+    width: 80%;
+    margin-left: 8%;
+  }
+  #opcaocartao {
+    width: 80%;
+    margin-left: 8%;
+  }
+
+  .inputboleto {
+    width: 80%;
+  }
+
+  #asidebol {
+    margin-top: 30%;
+  }
+
+  #compraboleto {
+    margin-top: 25%;
+    height: 160%;
+  }
+
+  .inputcartao {
+    width: 80%;
+  }
+
+  .inputcartao2 {
+    width: 10%;
+  }
+
+  .texto3 {
+    margin-left: 0;
+  }
+
+  #asidecar {
+    margin-top: 50%;
+  }
+
+  #compracartao {
+    margin-top: 15%;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 90%;
+  }
+  #asidebol {
+    margin-top: 60%;
+  }
+  #compraboleto {
+    margin-top: 75%;
+  }
+
+  #asidecar {
+    margin-top: 70%;
+  }
+
+  #compracartao {
+    margin-top: 60%;
+  }
+  }

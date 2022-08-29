@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>IANES Tech - login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+    <main class="col-6" id="mainlogin">
+
+        <article class="col-12" id="articlelogin">
+
+            <section id="logo" class="col-11"></section>
+
+            <section id="foto" class="col-5"></section>
+
+            <form action="#" method="post" id="formlogin">
+                <section id="inputs" class="col-10">
+                    <label for="mail"></label>
+                    <input type="email" name="maillogin" id="maillogin" placeholder="E-mail" required><br>
+
+                    <label for="senha"></label>
+                    <input type="password" name="senhalogin" id="senhalogin" placeholder="Senha" required><span><img onclick="mostrar_senha()" id="imgolho"
+                            src="imgg/olho.png" /></span>
+                </section>
+            </form>
+
+                <section id="botoes" class="col-11">
+                    <button id="b1" onclick="return valida_senha()">LOGIN</button><br>
+                    <button id="b2"><a href="../Cadastro/cadastro.html">CADASTRE-SE</a></button>
+                </section>
+
+        </article>
+
+    </main>
+
+    <footer></footer>
+    </div>
+
+</body>
+<script src="../JS/logica.js"></script>
+
+</html>
