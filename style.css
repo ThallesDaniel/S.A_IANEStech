@@ -43,7 +43,7 @@ header > section {
   font-family: 'Chakra Petch', sans-serif;
   font-style: italic;
   color: rgb(0, 0, 0);
-  font-size: 57pt;
+  font-size: 50pt;
   font-weight: bolder;
   text-shadow:1px 3px 3px rgb(255, 255, 255);
 }
@@ -374,7 +374,7 @@ footer{
   }
 
   #sectionmaintop {
-    margin-top: 70%;
+    margin-top: 85%;
   }
   
 }

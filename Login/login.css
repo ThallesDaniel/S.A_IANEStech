@@ -102,8 +102,8 @@ button {
 }
 
 #b2 {
-    margin-left: 31.5%;
-    width: 37%;
+    margin-left: 25.5%;
+    width: 50%;
     height: 30%;
     cursor: pointer;
     background-color: rgba(253, 255, 254, 0.19);
@@ -203,12 +203,11 @@ p {
 
     /* For mobile phones: */
     [class*="col-"] {
-        width: 90%;
+        width: 100%;
     }
 
     #mainlogin {
-        
-        height: 90vh;
+        height: 150vh;
         width: 100%;
     }
 
@@ -251,10 +250,9 @@ p {
     }
 
     #b2 {
-        margin-left: 33.5%;
-        width: 37%;
+        margin-left: 27.5%;
+        width: 50%;
         height: 35%;
     }
-
 
 }

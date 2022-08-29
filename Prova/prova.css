@@ -24,7 +24,7 @@
   }
 
   #conteudo {
-    height: 390vh;
+    height: 395vh;
     border: 1px solid;
     margin: 0 auto;
     margin-top: 2%;
@@ -33,7 +33,7 @@
 
   #sectionprova {
     padding: 10px;
-    height: 360vh;
+    height: 390vh;
   }
 
   .title {
@@ -127,37 +127,37 @@
     width: 98%;
   }
   main {
-    height: 580vh;
+    height: 620vh;
   }
 
 
   #conteudo{
     margin-top: 10%;
-    height: 530vh;
+    height: 595vh;
   }
 
 #sectionprova {
-  height: 510vh;
+  height: 550vh;
 }
 }
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 1225px) {
   /* For mobile phones: */
   [class*="col-"] {
     width: 98%;
   }
 
   main {
-    height: 595vh;
+    height: 675vh;
   }
 
 
   #conteudo{
     margin-top: 10%;
-    height: 580vh;
+    height: 640vh;
   }
 
 #sectionprova {
-  height: 550vh;
+  height: 640vh;
 }
 
 }
@@ -169,17 +169,17 @@
   }
 
   main {
-    height: 255em;
+    height: 275em;
   }
 
 
   #conteudo{
     margin-top: 10%;
-    height: 250em;
+    height: 268em;
   }
 
 #sectionprova {
-  height: 235em;
+  height: 255em;
 }
 
   #botoes {
@@ -208,17 +208,17 @@
   }
 
   main {
-    height: 545vh;
+    height: 300em;
   }
 
 
   #conteudo{
     margin-top: 10%;
-    height: 530vh;
+    height: 285em;
   }
 
 #sectionprova {
-  height: 520vh;
+  height: 275em;
 }
 
 }
